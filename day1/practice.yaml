@@ -1,0 +1,40 @@
+first_name: Priyanshu #String scalar
+height: 5.7 #float scaler
+roll_number: 21 #integer scaler
+is_engineer: true #Boolean scaler
+payment_dues: null # Scaler
+
+#Dictionary
+address:
+  flat_number: 194B
+  street: 22
+  state: delhi
+  #nested dictionary
+  contact: 
+    phone: 8826591547
+    email: priaynshugautam343@gmail.com
+
+#List
+hobbies: 
+  - singing
+  - dancing
+  - traveling
+  # nested list
+  - sports:
+    - cricket
+    - football
+
+#Dictionary with nested list
+education:
+  degrees:
+  - degree: Bachelors
+    field: Computer Science
+  - degree: Masters
+    field: Data Science
+
+#List with nested Dictionary
+work_experience:
+  - company: ABC Computer
+    role: devops
+    duration: 2 years
+  
